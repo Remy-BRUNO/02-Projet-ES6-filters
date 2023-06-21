@@ -7,8 +7,8 @@ const form = document.querySelector(".input-form")
 const input = document.querySelector(".search-input")
 
 // articles
-const displayProducts = (product) => {
-  const newArticle = product.map((item) => {
+const displayProducts = (arr) => {
+  const newArticle = arr.map((item) => {
     const { title, image, price } = item
 
     return `
